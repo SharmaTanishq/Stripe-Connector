@@ -1,0 +1,50 @@
+{
+  "name": "StripeConnector",
+  "usesAutoSettleOptions": true,
+  "paymentMethods": [
+    {
+      "name": "Google Pay",
+      "allowsSplit": "disabled"
+    },
+    {
+      "name": "ApplePay",
+      "allowsSplit": "disabled"
+    },
+    {
+      "name": "OXXO",
+      "allowsSplit": "disabled"
+    },
+    {
+      "name": "BankInvoice",
+      "allowsSplit": "disabled"
+    },
+    {
+      "name": "Visa",
+      "allowsSplit": "disabled"
+    },
+    {
+      "name": "American Express",
+      "allowsSplit": "disabled"
+    },
+    {
+      "name": "Discover",
+      "allowsSplit": "disabled"
+    },
+    {
+      "name": "Diners",
+      "allowsSplit": "disabled"
+    },
+    {
+      "name": "Elo",
+      "allowsSplit": "disabled"
+    },
+    {
+      "name": "Hipercard",
+      "allowsSplit": "disabled"
+    },
+    {
+      "name": "Mastercard",
+      "allowsSplit": "disabled"
+    }
+  ]
+}

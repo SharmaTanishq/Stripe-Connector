@@ -1,0 +1,21 @@
+{
+    "memory": 256,
+    "ttl": 60,
+    "timeout": 10,
+    "minReplicas": 2,
+    "maxReplicas": 4,
+    "routes": {
+        "notifications": {
+            "path": "/_v/api/confirm-notifications",
+            "public": true
+        },
+        "webhookNotifications": {
+            "path": "/_v/notifications",
+            "public": true
+        },
+        "emptyResponse": {
+            "path": "/_v/empty-response",
+            "public": true
+        }
+    }
+}
